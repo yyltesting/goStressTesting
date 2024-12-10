@@ -1,0 +1,18 @@
+curl 'https://dev-ap-coppy.wss1.cn/ap/comment/create' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://coppy.fund' \
+  -H 'Pragma: no-cache' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: none' \
+  -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'x-token: 2WxgD6ujAAyioGWbv7LMvsj7s0q' \
+  --data-raw '{"content":"连参此方片计选采府号层做家问极表步论动委战上又家事消还会世收","linkid":"cgafsqvvea9","type":1,"replyid":"","extra":""}' \
+  --compressed

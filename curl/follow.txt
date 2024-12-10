@@ -1,0 +1,16 @@
+curl 'https://dev-ap-coppy.wss1.cn/ap/user/add/follow' \
+  -H 'authority: dev-ap-coppy.wss1.cn' \
+  -H 'accept: */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8' \
+  -H 'content-type: application/json' \
+  -H 'origin: chrome-extension://ebiododddhjccikhminneafpoppneknc' \
+  -H 'sec-ch-ua: "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: none' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36' \
+  -H 'x-token: 2NaI0W5fbupsOPMG13m3vLRBuQP' \
+  --data-raw '{"userid":"uatqd4p58zy0"}' \
+  --compressed

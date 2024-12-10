@@ -1,0 +1,19 @@
+curl 'https://www.wenshushu.cn/ap/ufile/nlist' \
+  -H 'authority: www.wenshushu.cn' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN, zh;q=0.9, en;q=0.8' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: _ga=amp-Elxv5XaWHKLhtcxV0ppQiA; Hm_lvt_f7af8397482754eda545bd52ed85c2cd=1707014529,1708220128; Hm_lvt_8030fb66a9eeda3983d0c0efb65b30cb=1710727791,1711331871,1711934745,1712452923; zg_did=%7B%22did%22%3A%20%2218ced3779eb509-0571cc253aa2a9-26031a51-1fa400-18ced3779eceb2%22%7D; Hm_lpvt_8030fb66a9eeda3983d0c0efb65b30cb=1712473996; zg_52930c181dc34cbc9f6b62ea3f4e1cbb=%7B%22sid%22%3A%201712473718987%2C%22updated%22%3A%201712473996735%2C%22info%22%3A%201712050734032%2C%22superProperty%22%3A%20%22%7B%5C%22%E5%BA%94%E7%94%A8%E5%90%8D%E7%A7%B0%5C%22%3A%20%5C%22%E6%96%87%E5%8F%94%E5%8F%94%5C%22%7D%22%2C%22platform%22%3A%20%22%7B%7D%22%2C%22utm%22%3A%20%22%7B%7D%22%2C%22referrerDomain%22%3A%20%22dev.wenshushu.cn%22%2C%22cuid%22%3A%20%225zuha94xi1x%22%2C%22zs%22%3A%200%2C%22sc%22%3A%200%2C%22firstScreen%22%3A%201712473718987%7D' \
+  -H 'origin: https://www.wenshushu.cn' \
+  -H 'prod: com.wenshushu.web.pc' \
+  -H 'referer: https://www.wenshushu.cn/drive/' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+  -H 'x-token: 2eksZyRMEh95kYX8Orfspzt6pQH' \
+  --data-raw '{"start":0,"sort":{"name":"asc"},"bid":"5zuha94ywmd","pid":"5zuha951pr9","options":{"uploader":"true"},"size":50}' \
+  --compressed

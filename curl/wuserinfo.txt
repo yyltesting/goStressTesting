@@ -1,0 +1,19 @@
+curl 'https://www.wenshushu.cn/ap/user/userinfo' \
+  -H 'authority: www.wenshushu.cn' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN, zh;q=0.9, en;q=0.8' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -H 'cookie: Hm_lvt_f7af8397482754eda545bd52ed85c2cd=1681381170; __bid_n=1877a20cd4bfaed7934207; FPTOKEN=ND0QP3T0FwN3ntdXwV20F1zqCz6dYgjJF0v9QUAvFx6qmd9/iAofMIhlbcRMXTqkZpdvjT+rPUimQWgOokWCtzHP5pdJMXSzk9q+hxeWLynjiSkMgW/qJSd4Cv9yk5cYKY3/2mfej29rVaA/Jsnb374yGpF+4UFYnzXxo33Go1+BqeeFfWKdld493NTM/HXkeYKxSfHs5E5niMDAP8YTY9XUbHDnralO62e6UztXG/q66v8Xv8kTW8iZptFib1E7vo0BLDHsNmSaL2yq6Gq2Ns8TyaNcIAIgyZ5LzcZrYXeaJSv8cDBhrUpjM62oQ1Wq9M3e7Egy1seRx46x4rzp/ZtIy7alUT9zuBFjI7aDTvAQByJ4cwCsFXRRQ0IsQXTv8iBCsq6KDDgzoQQ9sOkzcg==|aegP51TcJgKrxWOJzUhhwlql5AHLsvxxSXhPYD+xKYY=|10|6d226c9abf5a7acd0e20d59e1da399bc; zg_did=%7B%22did%22%3A%20%2218731809fcaa57-0b0a65529700fc-26031851-1fa400-18731809fcbd19%22%7D; zg_52930c181dc34cbc9f6b62ea3f4e1cbb=%7B%22sid%22%3A%201682473068544%2C%22updated%22%3A%201682473068570%2C%22info%22%3A%201682040873061%2C%22superProperty%22%3A%20%22%7B%5C%22%E5%BA%94%E7%94%A8%E5%90%8D%E7%A7%B0%5C%22%3A%20%5C%22%E6%96%87%E5%8F%94%E5%8F%94%5C%22%7D%22%2C%22platform%22%3A%20%22%7B%7D%22%2C%22utm%22%3A%20%22%7B%7D%22%2C%22referrerDomain%22%3A%20%22www.wenshushu.cn%22%2C%22zs%22%3A%200%2C%22sc%22%3A%200%2C%22firstScreen%22%3A%201682473068544%2C%22cuid%22%3A%20%2266gx57l3v6t%22%7D; Hm_lvt_8030fb66a9eeda3983d0c0efb65b30cb=1682301385,1682387097,1682404843,1682473069; Hm_lpvt_8030fb66a9eeda3983d0c0efb65b30cb=1682473069' \
+  -H 'origin: https://www.wenshushu.cn' \
+  -H 'prod: com.wenshushu.web.pc' \
+  -H 'referer: https://www.wenshushu.cn/' \
+  -H 'sec-ch-ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36' \
+  -H 'x-token: 2Ouf5oPyaZlD6HbT3cBmQu9C4OR' \
+  --data-raw '{"plat":"pcweb"}' \
+  --compressed

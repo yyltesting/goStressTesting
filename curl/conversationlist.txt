@@ -1,0 +1,16 @@
+curl 'https://dev-ap-habox.wss1.cn/ap/conversation/list' \
+  -H 'authority: dev-ap-habox.wss1.cn' \
+  -H 'accept: */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9,en;q=0.8' \
+  -H 'content-type: application/json' \
+  -H 'origin: chrome-extension://ebiododddhjccikhminneafpoppneknc' \
+  -H 'sec-ch-ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: none' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' \
+  -H 'x-token: 2eZsRjSvKnYqcPfGWu499OaQsxa' \
+  --data-raw '{"limit":20,"offset":0}' \
+  --compressed
